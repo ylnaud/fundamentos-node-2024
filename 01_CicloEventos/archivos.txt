@@ -1,0 +1,17 @@
+
+| Operación                      | Método Bloqueante                  | Método No Bloqueante                   |
+|--------------------------------|------------------------------------|----------------------------------------|
+| Leer archivo                   | `fs.readFileSync`                  | `fs.readFile`                          |
+| Escribir archivo               | `fs.writeFileSync`                 | `fs.writeFile`                         |
+| Aserciones                     | `assert` (sin variantes)           | N/A                                    |
+| Renombrar archivo              | `fs.renameSync`                    | `fs.rename`                            |
+| Eliminar archivo               | `fs.unlinkSync`                    | `fs.unlink`                            |
+| Crear directorio               | `fs.mkdirSync`                     | `fs.mkdir`                             |
+| Eliminar directorio            | `fs.rmdirSync`                     | `fs.rmdir`                             |
+| Leer directorio                | `fs.readdirSync`                   | `fs.readdir`                           |
+| Leer estadísticas de archivo   | `fs.statSync`                      | `fs.stat`                              |
+| Ejecutar un comando del sistema| `child_process.execSync`           | `child_process.exec`                   |
+| Abrir archivo                  | `fs.openSync`                      | `fs.open`                              |
+| Cerrar archivo                 | `fs.closeSync`                     | `fs.close`                             |
+| Leer desde un descriptor de archivo | `fs.readSync`                  | `fs.read`                              |
+| Escribir a un descriptor de archivo | `fs.writeSync`                | `fs.write`                             |

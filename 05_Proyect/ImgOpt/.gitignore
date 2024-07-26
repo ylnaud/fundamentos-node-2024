@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de salida
+docs/
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Directorios temporales
+tmp/
+temp/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+
+# Archivos de configuración del sistema operativo
+# Ignorar archivos de configuración de Arch Linux
+*.pacsave
+*.pacnew
+*.pacorig
+
+# Ignorar todos los archivos ocultos del sistema
+.*
+!.gitignore
+
+# Ignores de configuración específicos de Linux
+*.bak
+*.old
+*.orig
+
+# Otros ignorados comunes
+*.out
+*.lock
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.log.*
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*~

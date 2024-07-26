@@ -1,0 +1,27 @@
+{
+  "name": "primeros-pasos-npm",
+  "version": "1.0.0",
+  "description": "Fuandamentos con node.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev":"nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "node.js",
+    "javaScript"
+  ],
+  "author": "Duanly Vega Alderete <thyronemiguelvegasantana@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "serve-static": "^1.15.0"
+  }
+}

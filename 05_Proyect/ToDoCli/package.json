@@ -1,0 +1,16 @@
+{
+  "name": "todocli",
+  "version": "1.0.0",
+  "description": "Una todo list desde la linea de comando básica",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Duanly Vega Alderete",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
